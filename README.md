@@ -50,5 +50,3 @@ The project comes with other useful scripts that you can run using
 
 - `test`: Runs the project tests.
 - `lint`: Lints the project files using ESLint.
-
-Refer to the project's `package.json` file for more details on these scripts.
