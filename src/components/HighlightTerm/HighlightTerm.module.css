@@ -1,0 +1,10 @@
+.highlight {
+  color: inherit;
+  font-weight: bold;
+}
+
+@media (prefers-color-scheme: light) {
+  .highlight {
+    font-weight: bold;
+  }
+}

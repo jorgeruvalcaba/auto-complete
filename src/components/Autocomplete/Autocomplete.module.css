@@ -1,0 +1,19 @@
+.autocomplete {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  font-size: 1.5em;
+}
+
+.noResults {
+  margin-top: 0.2em;
+  width: 30em;
+  padding: 0.56em;
+  background-color: field;
+  border: 1px solid gray;
+  border-radius: 4px;
+}

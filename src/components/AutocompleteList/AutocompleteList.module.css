@@ -1,0 +1,16 @@
+.autocompleteList {
+  margin-top: 0.2em;
+  width: 30em;
+  padding: 0.56em;
+  background-color: field;
+  border: 1px solid gray;
+  border-radius: 4px;
+}
+
+.listItem:hover {
+  background-color: darkgray;
+}
+
+.listItemSelected {
+  background-color: darkgray;
+}
