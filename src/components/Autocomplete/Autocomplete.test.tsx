@@ -5,8 +5,8 @@ import userEvent from '@testing-library/user-event'
 import { Autocomplete } from './'
 import { mockData } from './mockData'
 
-describe('<AutoComplete />', () => {
-  test('should render AutoComplete', () => {
+describe('AutoComplete', () => {
+  test('should render correctly', () => {
     const onChange = vi.fn()
     render(
       <Autocomplete
@@ -20,7 +20,7 @@ describe('<AutoComplete />', () => {
     expect(screen.getByText(/ricky & morty/i)).toBeInTheDocument()
   })
 
-  test('should open AutoComplete list', async () => {
+  test('should open AutoComplete list on focus', async () => {
     const onChange = vi.fn()
     render(
       <Autocomplete

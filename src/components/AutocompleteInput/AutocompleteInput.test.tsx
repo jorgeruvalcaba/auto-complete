@@ -4,7 +4,7 @@ import { vi } from 'vitest'
 
 import { AutocompleteInput } from './index'
 
-describe('<AutocompleteInput />', () => {
+describe('AutocompleteInput', () => {
   it('renders input element', () => {
     render(<AutocompleteInput isLoading={false} readOnly />)
 
