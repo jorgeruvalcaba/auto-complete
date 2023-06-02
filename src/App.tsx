@@ -14,8 +14,6 @@ function App() {
     `${API_URL}/character?name=${debouncedQuery}`,
   )
 
-  console.log(data)
-
   const handleChange = (value: string) => setQuery(value)
 
   return (
